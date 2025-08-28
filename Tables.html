@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+       <title>my test page</title>
+       <style>
+    body{
+        background-color: blueviolet;
+    }
+
+    table, tr, td, th{
+        border: 2px solid green;
+        border-collapse: collapse;
+    }
+
+    table{
+        margin: auto;
+        width: 70%;
+        height: 500px;
+        text-align: center;
+        font-size: 25px;
+        background-color: aquamarine;
+    }
+
+    caption{
+        border: 2px solid red;
+        background-color: black;
+        color: bisque;
+    }
+
+    tr:nth-child(1){
+        background-color: rgb(124, 233, 136);
+        font-style: italic;
+    }
+
+    td:nth-child(1){
+        background-color: rgb(124, 233, 136);
+        font-style: italic;
+    }
+
+    </style>
+</head>
+<body>
+   <table>
+    <caption><marquee>Students'score board</marquee></caption>
+    <tr>
+<th>ID</th>
+<th>name</th>
+<th>SUBJECT</th>
+<th>MARKS</th>
+</tr>
+<tr>
+<td rowspan="3">1</td>
+<td rowspan="3">TOBI</td>
+<td>MATHS</td>
+<td>70</td>
+</tr>
+<tr>
+<td>ENGLISH</td>
+<td>85</td>
+</tr>
+<tr>
+<td>ICT</td>
+<td>90</TD>
+</tr>
+</table> 
+</body>
+</html>
