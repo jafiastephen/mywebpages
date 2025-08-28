@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My sample form</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+
+        .form{
+            background-color: bisque;
+           border-radius: 10px;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+
+        .container{
+            padding: 20px;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .name{
+            padding: 20px;
+           display: flex;
+        }
+         input{
+            padding-right: 20px;
+            height: 40px;
+            border-radius: 10px;
+            text-decoration: none;
+         }
+
+         .ad{
+            width: 400px;
+            height: 40px; 
+            border-radius: 10px; 
+            margin-left: 10px;
+         }
+
+         .btn{
+            height: 40px;
+            border-radius: 10px;
+            background-color: #ff7200;
+            color: #fff;
+            margin: auto;
+         }
+
+         .btn:hover{
+            background-color: #fff;
+            color: #000;
+            transform: 1s ease;
+         }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form class="container">
+            <h2>My Form</h2>
+
+            <div class="name">
+            
+                <label for="first name">First Name</label><br>
+                <input type="text" placeholder="Type your first name" name="First Name"><br>
+            
+                
+                <label for="Last Name">Last Name</label><br>
+                <input type="text" placeholder="Type your last name" name="First Name"><br>
+             </div>
+
+         <div >
+            <label for="email">Email</label><br>
+            <input class="ad" type="email" placeholder="Input your email">
+        </div>
+
+        <div class="btn"> 
+            <button>Click Here</button>
+        </div>
+           
+        </form>
+
+    </div>
+</body>
+</html>
