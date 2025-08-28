@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my tables </title>
+    <style>
+      body{
+        background-color:aqua;
+      }
+      table{
+        background-color:aquamarine;
+        margin: auto;
+         border: 1px,solid,black;
+        border-collapse: collapse;
+        width: 70%;
+        height: 500px;
+      }
+      table,tr,td,th{
+        border: 1px,solid,black;
+        text-align: center;
+        color:black;
+      }
+      th{
+        color: red;
+      }
+      caption{
+        border: 2.5px,solid,black;
+        text-decoration: brown;
+      }
+      td:nth-child(1){
+        background-color: bisque;
+        border-bottom: hidden;
+      }
+      tr:last-child td:first-child{
+        border-bottom:1px solid black ;
+      }
+      td:nth-child(2){
+        background-color: azure;
+      }
+      tr:nth-child(4){
+        background-color: white;
+      }
+    </style>
+</head>
+<body>
+  <table>
+    <caption><Marquee>MEAL PLAN</Marquee> </caption>
+    <tr> 
+    <th>Days </th>
+    <th>Breakfast</th>
+    <th>lunch</th>
+    <th>Dinner</th>
+    </tr>
+    <tr>
+    <td>Sunday</td>
+    <td>bread and tea</td>
+    <td>jollof rice </td>
+    <td>beans and plaintain</td>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>pancakes </td>
+      <td>rice and beans</td>
+      <td>fried yam </td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>bread and butter</td>
+      <td>spaghetti</td>
+      <td>yam and eggs</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td colspan="2">fast and pray </td>
+      <td>plaintain chips</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>yam and eggs</td>
+      <td>jollof rice</td>
+      <td>bread and fried eggs</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>bread and tea </td>
+      <td>rice and beans </td>
+      <td>macaroni</td>
+    </tr>
+    <tr>
+    <td>Saturday</td>
+    <td>pancakes</td>
+    <td>rice and stew</td>
+    <td>bread and fried eggs</td>
+    </tr>
+  </table>  
+</body>
+</html>  

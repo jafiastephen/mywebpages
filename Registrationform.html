@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form3</title>
+    <style>
+      body{
+        background-color: bisque;
+      }
+      .banner{
+       width: 100%;
+       margin-bottom: 15px;
+      }
+      .banner img{
+       width: 100%;
+       height: 450px;
+       border: 1px solid bisque;
+       border-radius: 5px;
+      }
+      .form{
+        width: 100%;
+       display: flex;
+       padding: 10px;
+      }
+      form{
+       border: 1px solid burlywood;
+       border-radius: 5px;
+       width: 300px;
+       height: 260px;
+       margin-top: 10px;
+       padding: 10px;
+       text-align: center;
+       padding: 20px;
+       margin: auto;
+       background-color: blanchedalmond;
+      }
+      input{
+       margin-top: 1px; 
+       margin-bottom: 10px;
+       background-color: blanchedalmond;
+       border-radius: 3px;
+       width: 200px;
+      }
+      input:hover{
+       background-color: aliceblue;
+      }
+      .radio{
+        width:30px;
+      }
+      .Button{
+        margin-top: 8px;
+      }
+      .btnreset{
+        width: 70px;
+      }
+    </style>
+</head>
+<body>
+    <div class="banner">
+     <img src="image1.jpg" alt="this is my image1">
+    </div>
+   <div class="form">
+     <form action="successful.html" method="post">  
+     Name:<input type="text" id="name" name="name" required>
+     <br>
+     Class applying For:<select id="Class applying for">
+        <option selected value="Nurs.1">Nurs.1</option>
+        <option value="Nurs.2">Nurs.2</option>
+        <option value="Nurs.3">Nurs.3</option>
+        <option value="Pri.1">Pri.1</option>
+        <option value="Pri.2">Pri.2</option>
+        <option value="Pri.3">Pri.3</option>
+        <option value="Pri.4">Pri.4</option>
+        <option value="Pri.5">Pri.5</option>
+      </select>
+     <br>
+     Age:<input type="number" id="age" name="age">
+     <br>  
+      Gender:<input checked type="radio" class="radio" id="sex" name="sex">
+      Male:<input type="radio" class="radio" id="sex" name="sex"><br>
+      Female:<input type="radio" class="radio" id="sex" name="sex">
+     <br>
+     Date of Birth:<input type="date" id="Date" name="Date">
+     <br>
+     Passport:<input type="file" id="photo" name="photo">
+     <br>
+     State of origin:<select id="State of origin">
+        <option selected value="Abuja">Abuja</option>
+        <option value="Kogi">Kogi</option>
+        <option value="Lagos">Lagos</option>
+        <option value="Ondo">Ondo</option>
+        <option value="Kano">Kano</option>
+        <option value="Ekiti">Ekiti</option>
+        <option value="Benin">Benin</option>
+      </select>
+      <div class="Button">
+         <button value="Submit"> SUBMIT</button>
+         <input class="btnreset" type="reset" value="Reset">
+      </div>
+     </form>
+   </div>
+</body>
+</html>
